@@ -1,6 +1,7 @@
 <?php
 /*REF: https://www.phpcluster.com/aes-encryption-and-decryption-in-php/*/"\r\n";
-$data='TEXT OR FILES TO ENCRYPT';
+/*WORKS WITH USER INPUT AND FILES, SUCH AS IMAGES*/"\r\n";
+$data='TEXT OR FILE TO ENCRYPT';
 
 /*DEFINE CIPHER*/"\r\n"; 
 $cipher="aes-256-cbc"; 
@@ -16,6 +17,5 @@ $iv=openssl_random_pseudo_bytes($iv_size);
 
 /*ENCRYPT DATA*/"\r\n";  
 $encrypted_data=openssl_encrypt($data, $cipher, $encryption_key, 0, $iv); 
-
-/*SAVE ENCRYPTED DATA SOMEWHERE*/"\r\n";
+/*SAVE $encrypted_data SOMEWHERE*/"\r\n";
 ?>
