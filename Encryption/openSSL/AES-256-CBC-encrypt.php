@@ -1,5 +1,6 @@
 <?php
 /*REF: https://www.phpcluster.com/aes-encryption-and-decryption-in-php/*/"\r\n";
+/*OPENSSL WORKS BY DEFAULT, IN MODERN PHP VERSIONS*/"\r\n";
 /*WORKS WITH USER INPUT AND FILES, SUCH AS IMAGES*/"\r\n";
 $data='TEXT OR FILE TO ENCRYPT';
 
