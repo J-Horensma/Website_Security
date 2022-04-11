@@ -1,4 +1,7 @@
 <?php
+/*REF: https://www.phpcluster.com/aes-encryption-and-decryption-in-php/*/"\r\n";
+/*OPENSSL WORKS BY DEFAULT, IN MODERN PHP VERSIONS*/"\r\n";
+/*WORKS WITH USER INPUT AND FILES, SUCH AS IMAGES*/"\r\n";
 $encryption_key='ENCRYPTION KEY';
 $iv='IV';
 $encrypted_data='ENCRYPTED DATA';
