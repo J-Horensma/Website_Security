@@ -2,6 +2,7 @@
 /*REF: https://www.phpcluster.com/aes-encryption-and-decryption-in-php/*/"\r\n";
 /*OPENSSL WORKS BY DEFAULT, IN MODERN PHP VERSIONS*/"\r\n";
 /*WORKS WITH USER INPUT VARIABLES AND FILES*/"\r\n";
+/*THE KEY AND IV, ARE REQUIRED BY THE DECRYPTION SCRIPT, SO IT CAN DECRYPT THE ENCRYPTED DATA*/"\r\n";
 $data='TEXT OR FILE TO ENCRYPT';
 
 /*DEFINE CIPHER*/"\r\n"; 
@@ -18,5 +19,5 @@ $iv=openssl_random_pseudo_bytes($iv_size);
 
 /*ENCRYPT DATA*/"\r\n";  
 $encrypted_data=openssl_encrypt($data, $cipher, $encryption_key, 0, $iv); 
-/*SAVE $encrypted_data SOMEWHERE*/"\r\n";
+/*SAVE $encrypted_data SOMEWHERE, FOR LATER DECRYPTION*/"\r\n";
 ?>
