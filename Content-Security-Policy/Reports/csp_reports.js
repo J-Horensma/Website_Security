@@ -8,12 +8,19 @@
 /*CALL THIS SCRIPT, BEFORE OTHER SCRIPTS, SO IT CAN IDENTIFY PROBLEMS, BEFORE THE PAGE FAILS*/
 /*CALL REPORT WITH "violation_report" JS VARIABLE*/
 document.addEventListener("securitypolicyviolation", (e) => {
+ /*CHECK IF POLICY IS ENFORCED, OR SET TO REPORT ONLY:*/
  var policyEnforced=e.disposition;
+ /*CSP POLICY THAT IS SET:*/
  var setPolicy=e.originalPolicy;
+ /*CSP POLICY DIRECTIVE THAT WAS VIOLATED:*/
  var violatedPolicy=e.violatedDirective;
+ /*VIOLATION TYPE (E.G.: INLINE SCRIPT):*/
  var blockedResourceType=e.blockedURI;
+ /*VIOLATION SOURCE:*/
  var originalSource=e.referrer;
+ /*VIOLATION SOURCE FILE PATH (E.G.: https://somesite.com/file.php):*/
  var violationFileSource=e.sourceFile;
+ /*VIOLATION SOURCE URI (E.G.: https://somesite.com/file.php?this=1&is=1&a=1&uri=1):*/
  var violationURISource=e.documentURI;
  var violationLineNumber=e.columnNumber;
  var violationColumnNumber=e.columnNumber;
