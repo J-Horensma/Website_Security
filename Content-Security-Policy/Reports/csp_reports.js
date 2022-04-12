@@ -23,9 +23,11 @@ document.addEventListener("securitypolicyviolation", (e) => {
  var violationFileSource=e.sourceFile;
  /*VIOLATION SOURCE URI PATH (E.G.: https://somesite.com/file.php?this=1&is=1&a=1&uri=1):*/
  var violationURISource=e.documentURI;
- /*LINE NUMBER OF VIOLATING RESOURCE (IF INLINE)*/
+ /*LINE NUMBER OF VIOLATING RESOURCE (IF INLINE):*/
  var violationLineNumber=e.lineNumber;
- /*HTTP STATUS CODE OF VIOLATION OCCURRENCE*/
+  /*FIRST 40 CHARACTER SAMPLE, OF VIOLATING RESOURCE (IF INLINE):*/
+ var violationSample=e.sample;
+ /*HTTP STATUS CODE OF VIOLATION OCCURRENCE:*/
  var occurenceStatusCode=e.statusCode;
  
 var violation_report=
@@ -37,5 +39,6 @@ var violation_report=
 'Violation source file path: ' + violationFileSource + '\n' +
 'Violation URI source path: ' + violationURISource + '\n' +
 'Line number of page violation: ' + violationLineNumber + '\n' +
-'HTTP status code of occurrence: ' + occurenceStatusCode + '\n';
+'Sample of policy violating resource contents: ' + violationSample + '\n' +
+'HTTP status code, of policy violation occurrence: ' + occurenceStatusCode + '\n';
 });
