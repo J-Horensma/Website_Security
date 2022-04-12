@@ -1,4 +1,5 @@
 <?php
+/*THIS SCRIPT ENCRYPTS DATA, WITH AES 256 BIT CBC ENCRYPTION (GOVERNMENT GRADE)*/
 /*REF: https://www.phpcluster.com/aes-encryption-and-decryption-in-php/*/"\r\n";
 /*OPENSSL WORKS BY DEFAULT, IN MODERN PHP VERSIONS*/"\r\n";
 /*WORKS WITH USER INPUT VARIABLES AND FILES*/"\r\n";
