@@ -34,10 +34,8 @@ var violation_report=
 'Violated policy: ' + violatedPolicy + '\n' +
 'Violation type: ' + blockedResourceType + '\n' +
 'Violation source IP/Domain (If not inline): ' + originalSource + '\n' +
-'Violation file source path: ' + violationFileSource + '\n' +
+'Violation source file path: ' + violationFileSource + '\n' +
 'Violation URI source path: ' + violationURISource + '\n' +
 'Line number of page violation: ' + violationLineNumber + '\n' +
-'Column number of page violation: ' + violationColumnNumber + '\n' +
-'Blocked resource: ' + blockedResource + '\n' +
 'HTTP status code of occurrence: ' + occurenceStatusCode + '\n';
 });
