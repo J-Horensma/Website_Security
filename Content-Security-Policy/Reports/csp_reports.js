@@ -30,7 +30,7 @@ document.addEventListener("securitypolicyviolation", (e) => {
  /*HTTP STATUS CODE OF VIOLATION OCCURRENCE:*/
  var occurenceStatusCode=e.statusCode;
  
-var violation_report=
+ var violation_report=
 'CSP set to "enforce" or "report"?: ' + policyEnforced + '\n' +
 'CSP in place: ' + setPolicy + '\n' +
 'Violated policy: ' + violatedPolicy + '\n' +
