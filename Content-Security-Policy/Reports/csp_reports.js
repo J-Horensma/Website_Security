@@ -22,7 +22,7 @@ document.addEventListener("securitypolicyviolation", (e) => {
  var violationFileSource=e.sourceFile;
  /*VIOLATION SOURCE URI (E.G.: https://somesite.com/file.php?this=1&is=1&a=1&uri=1):*/
  var violationURISource=e.documentURI;
- var violationLineNumber=e.columnNumber;
+ var violationLineNumber=e.lineNumber;
  var violationColumnNumber=e.columnNumber;
  var blockedResource=e.sample;
  var occurenceStatusCode=e.statusCode;
