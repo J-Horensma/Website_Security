@@ -16,7 +16,7 @@ document.addEventListener("securitypolicyviolation", (e) => {
  var violatedPolicy=e.violatedDirective;
  /*VIOLATION TYPE (E.G.: INLINE SCRIPT):*/
  var blockedResourceType=e.blockedURI;
- /*VIOLATION SOURCE:*/
+ /*VIOLATION SOURCE (IF FROM ANOTHER SOURCE):*/
  var originalSource=e.referrer;
  /*VIOLATION SOURCE FILE PATH (E.G.: https://somesite.com/file.php):*/
  var violationFileSource=e.sourceFile;
