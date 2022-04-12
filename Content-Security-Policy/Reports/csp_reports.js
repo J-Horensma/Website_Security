@@ -23,16 +23,17 @@ document.addEventListener("securitypolicyviolation", (e) => {
  var violationFileSource=e.sourceFile;
  /*VIOLATION SOURCE URI (E.G.: https://somesite.com/file.php?this=1&is=1&a=1&uri=1):*/
  var violationURISource=e.documentURI;
+ /*LINE NUMBER VIOLATION OCCURRED ON (IF INLINE)*/
  var violationLineNumber=e.lineNumber;
  var violationColumnNumber=e.columnNumber;
  var blockedResource=e.sample;
  var occurenceStatusCode=e.statusCode;
  
 var violation_report='Enforced or report only?: ' + policyEnforced + '\n' +
-'Policy: ' + setPolicy + '\n' +
+'Policy in place: ' + setPolicy + '\n' +
 'Violated policy: ' + violatedPolicy + '\n' +
 'Violation type: ' + blockedResourceType + '\n' +
-'Violation source: ' + originalSource + '\n' +
+'Violation source (If not inline): ' + originalSource + '\n' +
 'Violation file source: ' + violationFileSource + '\n' +
 'Violation URI source: ' + violationURISource + '\n' +
 'Line of page violation: ' + violationLineNumber + '\n' +
