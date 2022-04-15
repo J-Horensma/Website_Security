@@ -4,7 +4,10 @@ They are important for preventing attacks, such as XSS, phishing pages, with key
 
 ## "Content-Security-Policy" Headers, Can Be Set, Like So:
 In HTML code:
-`<head><meta http-equiv="Content-Security-Policy" content="RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS"></head>`
+
+`<head>`
+`<meta http-equiv="Content-Security-Policy" content="RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS">`
+`</head>`
 
 In PHP code:
 `header("Content-Security-Policy: RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS);`
