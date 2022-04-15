@@ -3,7 +3,8 @@
 "Content-Security-Policy" headers, are important for preventing attacks, such as XSS, phishing pages, with keyloggers and an iframe to the actual website login, or any attack involving alteration or usage, of resources, on a page, from an untrusted source.
 
 ## "Content-Security-Policy" Headers, Can Be Set, Like So:
-In HTML code:
+
+#### In HTML code:
 
 `<head>`
 
@@ -11,10 +12,10 @@ In HTML code:
 
 `</head>`
 
-In PHP code:
+#### In PHP code:
 
 `header("Content-Security-Policy: RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS);`
 
-For currently supported directives, visit:
+#### For currently supported directives, visit:
 
 [https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP "Currently supported directives")
