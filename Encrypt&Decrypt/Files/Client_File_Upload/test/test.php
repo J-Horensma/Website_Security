@@ -1,4 +1,6 @@
 <!---BY: JOEL HORENSMA--->
+<!---LAST UPDATED: APRIL 14/2022--->
+
 <div><h1>Choose file to encrypt:</h1></div>
 <form method="post" action="test.php" enctype="multipart/form-data">
 <input type="file" name="file">
