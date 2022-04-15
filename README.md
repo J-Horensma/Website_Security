@@ -1,2 +1,2 @@
 # WEBSITE SECURITY
-## This repository was developed, as an outline, for secure website development
+## This repository has been developed, as an outline, for secure website development
