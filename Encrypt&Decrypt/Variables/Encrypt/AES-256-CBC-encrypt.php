@@ -9,7 +9,7 @@ $data='TEXT OR FILE TO ENCRYPT';
 /*DEFINE CIPHER*/"\r\n"; 
 $cipher="aes-256-cbc"; 
 
-/*CREATE A 256 BIT ENCRYPTION KEY*/"\r\n"; 
+/*GENERATE A 256 BIT ENCRYPTION KEY*/"\r\n"; 
 $encryption_key=openssl_random_pseudo_bytes(32); 
 /*SAVE $encryption_key SOMEWHERE, LIKE IN A DB*/"\r\n";
 
