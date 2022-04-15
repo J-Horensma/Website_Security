@@ -23,11 +23,11 @@ $iv=openssl_random_pseudo_bytes($iv_size);
 
 /*ENCRYPT DATA*/"\r\n";  
 $encrypted_data=openssl_encrypt($data, $cipher, $encryption_key, 0, $iv); 
-/*SAVE $encrypted_data SOMEWHERE*/"\r\n";
+/*SAVE "$encrypted_data" SOMEWHERE*/"\r\n";
  
 echo "<div><h1 style='color:blue'>Encrypted text: </h1>$encrypted_data</div>";
 
-/*SET VARIABLES*/"\r\n";
+/*SET REQUIRED VARIABLES*/"\r\n";
 $encryption_key=$encryption_key;
 $iv=$iv;
 $encrypted_data=$encrypted_data;
@@ -37,7 +37,8 @@ $cipher = "aes-256-cbc";
 
 /*DECRYPT*/"\r\n"; 
 $decrypted_data=openssl_decrypt($encrypted_data, $cipher, $encryption_key, 0, $iv); 
-
+/*DO SOMETHING WITH "$decrypted_data"*/"\r\n";
+ 
 echo "<div><h1 style='color:blue'>Decrypted text: </h1>$decrypted_data</div>";
 }
 ?>
