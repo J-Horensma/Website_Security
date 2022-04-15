@@ -4,7 +4,7 @@
 <input type="submit" value="submit">
 </form>
 <?php
-if(!empty($_POST['plain_text']){
+if(!empty($_POST['plain_text'])){
 /*SET "$data" VARIABLE*/"\r\n";
 $data=$_POST['plain_text'];
 
