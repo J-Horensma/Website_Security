@@ -4,7 +4,7 @@
 /*IT'S STORED IN A TEMP FILE, ON THE SERVER (BY STANDARD AND DEFAULT).*/"\r\n";
 /*THE TEMP FILE NAME IS DEFINED BY THE "$_FILES['tmp_name']"*/"\r\n";
 
-/*SET DATA VARIABLE, FROM THE TEMP FILE CONTENTS*/"\r\n";
+/*SET VARIABLE, FOR DATA TO ENCRYPT, FROM THE TEMP FILE CONTENTS*/"\r\n";
 $data=file_get_contents($_FILES['file']['tmp_name']);
 
 /*DEFINE CIPHER*/"\r\n"; 
