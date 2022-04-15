@@ -12,4 +12,5 @@ In HTML code:
 `</head>`
 
 In PHP code:
+
 `header("Content-Security-Policy: RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS);`
