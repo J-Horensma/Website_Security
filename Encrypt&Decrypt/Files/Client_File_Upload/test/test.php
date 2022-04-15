@@ -3,3 +3,8 @@
 <input type="file" name="file">
 <input type="submit" value="Upload"/>
 </form>
+<?php
+if(!empty($_FILES['tmp_name'])){
+  
+}
+?>
