@@ -17,4 +17,5 @@ In PHP code:
 
 
 For currently supported directives, visit:
+
 [https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP "Currently supported directives")
