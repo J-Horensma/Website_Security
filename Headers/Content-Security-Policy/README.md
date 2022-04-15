@@ -6,7 +6,9 @@ They are important for preventing attacks, such as XSS, phishing pages, with key
 In HTML code:
 
 `<head>`
+
 `<meta http-equiv="Content-Security-Policy" content="RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS">`
+
 `</head>`
 
 In PHP code:
