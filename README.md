@@ -1,2 +1,2 @@
 # WEBSITE SECURITY
-## This Repository Is Meant, As An Outline, To Securing A Web Server.</h1>
+## This repository was developed, as an outline, for secure website development
