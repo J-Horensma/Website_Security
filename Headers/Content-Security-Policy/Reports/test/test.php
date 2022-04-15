@@ -16,7 +16,7 @@ $csp_self_subdomains="http://*".$domain;
 /*SET "Content-Security-Policy" HEADER*/"\r\n";
 header("Content-Security-Policy: default-src $csp_self_domain $csp_self_subdomains $csp_trusted");
 
-/*REMOVE THE BELOW STYLE ATTRIBUTE TO NOT TRIGGER A CSP REPORT PAGE*/"\r\n";
+/*REMOVE THE BELOW STYLE ATTRIBUTE TO NOT TRIGGER A CSP REPORT*/"\r\n";
 
 echo "<body style='color:blue'>The page loaded!</body>";
 ?>
