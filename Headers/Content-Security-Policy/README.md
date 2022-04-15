@@ -4,5 +4,5 @@ They are important for preventing attacks, such as XSS, phishing pages, with key
 
 ## "Content-Security-Policy" Headers, Can Be Set, Like So:
 
-In PHP:
+In PHP code:
 `header("Content-Security-Policy: [RESURCE]-src [SERVER_DOMAIN] [SERVER_SUBDOMAINS] [TRUSTED_DOMAINS]);`
