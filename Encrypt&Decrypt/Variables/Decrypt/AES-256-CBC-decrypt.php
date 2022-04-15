@@ -15,5 +15,5 @@ $cipher = "aes-256-cbc";
 
 /*DECRYPT*/"\r\n"; 
 $decrypted_data=openssl_decrypt($encrypted_data, $cipher, $encryption_key, 0, $iv); 
-/*DO SOMETHING WITH $decrypted_data*/"\r\n";
+/*DO SOMETHING WITH "$decrypted_data"*/"\r\n";
 ?>
