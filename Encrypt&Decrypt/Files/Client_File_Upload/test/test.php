@@ -4,7 +4,7 @@
 <input type="submit" value="Upload"/>
 </form>
 <?php
-if(!empty($_FILES['tmp_name'])){
+if(!empty($_FILES['file']['tmp_name'])){
 /*SET VARIABLE, FOR DATA TO ENCRYPT, FROM THE TEMP FILE CONTENTS*/"\r\n";
 $data=file_get_contents($_FILES['file']['tmp_name']);
 
