@@ -1,4 +1,4 @@
-<div><h1>Enter some text to encrypt:ncrypt:</h1></div>
+<div><h1>Enter some text to encrypt:</h1></div>
 <form method="post" action="test.php">
 <input type="text" name="plain_text">
 <input type="submit" value="submit">
