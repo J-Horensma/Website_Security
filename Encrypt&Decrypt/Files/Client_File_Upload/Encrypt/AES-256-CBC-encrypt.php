@@ -4,7 +4,8 @@
 /*IT'S STORED IN A TEMP FILE, ON THE SERVER (BY STANDARD AND DEFAULT).*/"\r\n";
 /*THE TEMP FILE NAME IS DEFINED BY THE "$_FILES['name']['tmp_name']"*/"\r\n";
 /*YOU CAN USE THIS SAME CONCEPT WITH FILES ALREADY ON THE SERVER, BY REPLACING:*/"\r\n";
-/*"$data=file_get_contents($_FILES['file']['tmp_name']);" WITH: "$data=file_get_contents("FILE_LOCATION");"*/"\r\n";
+/*"$data=file_get_contents($_FILES['file']['tmp_name']);" WITH: "$data=file_get_contents("$_POST['name']");" AND*/"\r\n";
+/*ENTERING THE NAME OF THE FILE, IN THE INPUT, THAT SHOULD BE SET TO: "type=text", INSTEAD OF: "type=file"*/"\r\n";
 
 /*SET VARIABLE, FOR DATA TO ENCRYPT, FROM THE TEMP FILE CONTENTS*/"\r\n";
 $data=file_get_contents($_FILES['file']['tmp_name']);
