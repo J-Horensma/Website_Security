@@ -7,7 +7,7 @@
 /*SCRIPT WILL NOT LOAD, FROM THE SAME PAGE, WHEN CSP IS SET UP PROPERLY, BECAUSE THAT VIOLATES STANDARD CSP.*/
 /*USAGE:*/
 /*CALL THIS SCRIPT, BEFORE OTHER SCRIPTS, ON THE PAGE*/
-/*CALL "violation_report" JS VARIABLE*/
+/*CALL WITH "cspReport()" FUNCTION AND "violation_report" JS VARIABLE*/
 
 document.addEventListener("securitypolicyviolation", (e) => {
  /*CHECK IF POLICY IS ENFORCED, OR SET TO REPORT ONLY:*/
@@ -36,10 +36,12 @@ document.addEventListener("securitypolicyviolation", (e) => {
 'CSP in place: ' + setPolicy + '\n' +
 'Violated policy: ' + violatedPolicy + '\n' +
 'Violation type: ' + blockedResourceType + '\n' +
-'Violation source IP/Domain (If not inline): ' + originalSource + '\n' +
+'Violation source IP/Domain: ' + originalSource + '\n' +
 'Violation source file path: ' + violationFileSource + '\n' +
 'Violation URI source path: ' + violationURISource + '\n' +
 'Line number of page violation: ' + violationLineNumber + '\n' +
 'Sample of policy violating resource contents: ' + violationSample + '\n' +
 'HTTP status code, of policy violation occurrence: ' + occurenceStatusCode + '\n';
+
+alert(violation_report);
 });
