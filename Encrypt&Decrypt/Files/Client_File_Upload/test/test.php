@@ -22,6 +22,10 @@ $iv=openssl_random_pseudo_bytes($iv_size);
 
 /*ENCRYPT DATA*/"\r\n";  
 $encrypted_data=openssl_encrypt($data, $cipher, $encryption_key, 0, $iv); 
-/*SAVE "$encrypted_data" SOMEWHERE*/"\r\n";  
+/*SAVE "$encrypted_data" SOMEWHERE*/"\r\n";
+
+file_put_contents("key.txt","$encryption_key");
+file_put_contents("iv.txt","$iv");
+file_put_contents("encrypted.png","$encrypted_data");
 }
 ?>
