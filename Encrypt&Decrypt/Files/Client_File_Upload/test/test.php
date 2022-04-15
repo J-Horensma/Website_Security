@@ -26,7 +26,7 @@ $encrypted_data=openssl_encrypt($data, $cipher, $encryption_key, 0, $iv);
 
 file_put_contents("key.txt","$encryption_key");
 file_put_contents("iv.txt","$iv");
-file_put_contents("encrypted.".$_FILES['file'],"$encrypted_data");
-echo "<div><h1 style='color:blue'>Encrypted file created, in this directory, as: </h1>"."encrypted.".$_FILES['file']."</div>";
+file_put_contents("encrypted.".$_FILES['file']['name'],"$encrypted_data");
+echo "<div><h1 style='color:blue'>Encrypted file created, in this directory, as: </h1>"."encrypted.".$_FILES['file']['name']."</div>";
 }
 ?>
