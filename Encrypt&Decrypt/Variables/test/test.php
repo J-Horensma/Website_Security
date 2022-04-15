@@ -36,3 +36,4 @@ $decrypted_data=openssl_decrypt($encrypted_data, $cipher, $encryption_key, 0, $i
 
 echo "<div><h1>Decrypted text: $decrypted_data</h1></div>";
 }
+?>
