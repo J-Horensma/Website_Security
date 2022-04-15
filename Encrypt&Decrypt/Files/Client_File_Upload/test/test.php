@@ -26,6 +26,6 @@ $encrypted_data=openssl_encrypt($data, $cipher, $encryption_key, 0, $iv);
 
 file_put_contents("key.txt","$encryption_key");
 file_put_contents("iv.txt","$iv");
-file_put_contents("encrypted.png","$encrypted_data");
+file_put_contents("encrypted.".$_FILES['file'],"$encrypted_data");
 }
 ?>
