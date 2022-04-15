@@ -3,6 +3,8 @@
 /*INSTEAD OF BEING STORED IN THE "$_POST['name']" VARIABLE,*/"\r\n";
 /*IT'S STORED IN A TEMP FILE, ON THE SERVER (BY STANDARD AND DEFAULT).*/"\r\n";
 /*THE TEMP FILE NAME IS DEFINED BY THE "$_FILES['name']['tmp_name']"*/"\r\n";
+/*YOU CAN USE THIS SAME CONCEPT WITH FILES ALREADY ON THE SERVER, BY REPLACING:*/"\r\n";
+/*"$data=file_get_contents($_FILES['file']['tmp_name']);" WITH: "$data=file_get_contents("FILE_LOCATION");"*/"\r\n";
 
 /*SET VARIABLE, FOR DATA TO ENCRYPT, FROM THE TEMP FILE CONTENTS*/"\r\n";
 $data=file_get_contents($_FILES['file']['tmp_name']);
