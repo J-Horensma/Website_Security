@@ -1,2 +1,2 @@
 # What Are Headers?:
-HTTP headers are loaded, by the browser, before the page content, therefor, if a broken header directive, is detected, the page content will not load, or causes an error, that can be handled, with code. This can prevent the execution, of the broken directive, if set up properly.
+HTTP headers are loaded, by the browser, before the page content. Headers are sent by http requests. The headers load, in the browser, before the page content, therefor, if a broken header directive, is detected, the page content can be stopped, or an error can be captured for analysis. This can prevent the execution, of the broken directive, or allow monitoring of security breaches, if set up properly.
