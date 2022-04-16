@@ -17,8 +17,8 @@ It would not hurt to place it in the .htaccess file, in the document root even b
 `Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS`
 
 ## PHP:
-``php
+```php
 <?php
 header("Strict-Transport-Security: max-age=31536000; includeSubDomains; preload");
-?>``
+?>```
 
