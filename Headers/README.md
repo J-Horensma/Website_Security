@@ -14,7 +14,9 @@ To set up headers, you can set them universally through the website, by adding t
 `Header set Access-Control-Allow-Origin "SERVERS_ALLOWED_ACCESS"`
 -
 `# CONTROL PAGE ACCESS (CSP):`
+
 `Header set Content-Security-Policy RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS`
+-
 
 ## PHP:
 ```php
