@@ -4,7 +4,7 @@
 
 ## "Content-Security-Policy" Headers, Can Be Set, Like So:
 
-#### In HTML code:
+## HTML:
 
 `<head>`
 
@@ -12,9 +12,13 @@
 
 `</head>`
 
-#### In PHP code:
+## PHP:
 
-`header("Content-Security-Policy: RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS);`
+```php
+<?php
+header("Content-Security-Policy: RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS);
+?>
+```
 
 #### For currently supported directives, visit:
 
