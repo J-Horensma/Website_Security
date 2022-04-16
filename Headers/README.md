@@ -5,10 +5,8 @@ HTTP headers are loaded, by the browser, before the page content. Headers are se
 To set up headers, you can set them universally through the website, by adding the headers, and their directives, to the ".htaccess" file, in the "document root" (Main) directory, of the server, or, you can set them on a page by page basis, at the top of each page, giving different permissions to each page.
 
 ## ".htaccess" File:
-`
-# PREVENT MITM, ON CLIENTS
-Header set Strict-Transport-Security "max-age=31536000 includeSubDomains env=HTTPS"
-`
+`# PREVENT MITM, ON CLIENTS
+Header set Strict-Transport-Security "max-age=31536000 includeSubDomains env=HTTPS"`
 ## PHP:
 ```php
 <?php
