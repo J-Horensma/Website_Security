@@ -13,11 +13,17 @@ To set up headers, you can set them universally through the website, by adding t
 
 ## HTML:
 ```html
+<html>
+  
 <head>
 
 <meta http-equiv="HEADER_NAME" content="ATTRIBUTE DIRECTIVE">
 
 </head>
+  
+<body></body>
+  
+</html>
 ```
 
 ## PHP:
