@@ -14,6 +14,6 @@ To set up headers, you can set them universally through the website, by adding t
 ## PHP:
 ```php
 <?php
-header("Header-Name: ATTRIBUTE DIRECTIVE; ETC");
+header("HEADER_NAME: ATTRIBUTE DIRECTIVE");
 ?>
 ```
