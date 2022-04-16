@@ -10,3 +10,7 @@
 -Build exif data stripping section
 
 -Build cookies section
+
+-Build database section
+
+-Build PHP sessions section
