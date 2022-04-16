@@ -4,6 +4,9 @@
 
 ## "Content-Security-Policy" Headers, Can Be Set, Like So:
 
+## ".htaccess" File:
+`Header set Content-Security-Policy "RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS"`
+
 ## HTML:
 
 ```html
@@ -18,4 +21,4 @@ header("Content-Security-Policy: RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRU
 
 #### For currently supported directives, visit:
 
-[https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP "Currently supported directives")
+https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
