@@ -29,8 +29,10 @@ To set up headers, you can set them universally through the website, by adding t
 ## PHP:
 ```php
 <?php
+
 header("HEADER_NAME: ATTRIBUTE DIRECTIVE");
 
 /*BODY OF PAGE*/"\r\n";
+
 ?>
 ```
