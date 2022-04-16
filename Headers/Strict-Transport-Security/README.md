@@ -13,7 +13,7 @@ MITM, works, on HTTPS, when a hacker creates a spoofed certificate (They can dec
 As a general rule, you should place an HSTS header, in the top, of any form, where sensitive data is entered, such as login forms or file upload forms.
 It would not hurt to place it in the .htaccess file, in the document root even because the rules are not affected by different types of pages
 
-## ".htaccess" FILE:
+## ".htaccess" File:
 `Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS`
 
 ## PHP:
