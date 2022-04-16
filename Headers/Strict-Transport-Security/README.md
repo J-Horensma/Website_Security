@@ -8,5 +8,5 @@ If Strict-Transport-Security headers are set and a spoofed certificate is detect
 ## Usage:
 As a general rule, you should place an HSTS header, in the top, of any form, where sensitive data is entered, such as login forms or file upload forms.
 
-#### PHP:
+## PHP:
 
