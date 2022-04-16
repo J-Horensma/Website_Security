@@ -1,12 +1,17 @@
 # What Are "Strict-Transport-Security" Headers?:
-"Strict-Transport-Security" or "HSTS" headers, are used to protect pages, with sensitive data inputs (Like forms), from MITM attacks, by preventing the page from loading, if the connection has a certificate that is spoofed.
+"Strict-Transport-Security", also known as "HSTS", headers, are used to protect pages, with sensitive data inputs (Like forms), from MITM attacks.
+
+## What is an MITM attack?:
+"Man-in-the-middle", also known as "MITM", is a tecnique usedmby hackers, on the same network as the target, to intercept data from a target.
 
 ## How Does A MITM Attack work?:
-A "Man In The Middle" attack or "MITM", works, on HTTPS, when a middle-man creates a spoofed certificate (They can decrypt), maintaining an HTTPS connection, with the target, so they are not notified by the browser, that the page is HTTP and not secure (The old way). In modern browsers, the browser will notify the user that the page is not secure, anyway (Due to certificate not matching), but allows a user to continue anyway, even though it's guaranteed, they are being intercepted. 
-If Strict-Transport-Security headers are set and a spoofed certificate is detected, the page will not allow a user to continue, the page simply does not load, for example, on a login form.
+Before SSL/TLS encryption was common, most websites used HTTP because an SSL/TLS certificate was pricy. This allowed hackers on the same network as a target, to intercept all data, in plain human readable format and steal sensitive information, like login credentials. Later, more websites started using SSL/TLS certificates and all data started being encrypted, when going through the internet also browsers started warning users that a connection was insecure, if the connection was HTTP.
+
+MITM, works, on HTTPS, when a hacker creates a spoofed certificate (They can decrypt), maintaining an HTTPS connection, with the target, so they are not notified by the browser, that the page is HTTP and not secure (The old way). In modern browsers, the browser will notify the user that the page is not secure, anyway (Due to certificate not being verified), but allows a user to continue anyway, even though it's guaranteed, they are being intercepted.
 
 ## Usage:
 As a general rule, you should place an HSTS header, in the top, of any form, where sensitive data is entered, such as login forms or file upload forms.
+It would not hurt to place it in the .htaccess file, in the document root even because the rules are not affected by different types of pages
 
 ## PHP:
 
