@@ -8,20 +8,12 @@ To set up headers, you can set them universally through the website, by adding t
 
 `# PREVENT MITM, ON CLIENTS:`
 
-`Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS`
--
-`# CONTROL SERVER ACCESS (CORS):`
-
-`Header set Access-Control-Allow-Origin "ALLOWED_ACCESS_TO_RESOURCES"`
--
-`# CONTROL PAGE ACCESS (CSP):`
-
-`Header set Content-Security-Policy RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS ALLOWED_RESOURCE_SOURCES`
+`Header set HEADER_NAME "HEADER_ATTRIBUTE DIRECTIVE"`
 -
 
 ## PHP:
 ```php
 <?php
-header("Header-Name: DIRECTIVE_1; DIRECTIVE_2; ETC");
+header("Header-Name: ATTRIBUTE DIRECTIVE; ETC");
 ?>
 ```
