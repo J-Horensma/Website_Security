@@ -6,14 +6,14 @@
 
 ## HTML:
 
-`<meta http-equiv="Content-Security-Policy" content="RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS">`
+```html
+<meta http-equiv="Content-Security-Policy" content="RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS"/>
+```
 
 ## PHP:
 
 ```php
-<?php
 header("Content-Security-Policy: RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS);
-?>
 ```
 
 #### For currently supported directives, visit:
