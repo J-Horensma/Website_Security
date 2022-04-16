@@ -6,11 +6,7 @@
 
 ## HTML:
 
-`<head>`
-
 `<meta http-equiv="Content-Security-Policy" content="RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS">`
-
-`</head>`
 
 ## PHP:
 
