@@ -13,7 +13,6 @@
 ## PHP:
 
 ```php
-
 header("Content-Security-Policy: RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS);
 ```
 
