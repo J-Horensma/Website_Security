@@ -15,7 +15,7 @@ To set up headers, you can set them universally through the website, by adding t
 -
 `# CONTROL PAGE ACCESS (CSP):`
 
-`Header set Content-Security-Policy RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS ALLOWED_RESOURCES_SOURCES`
+`Header set Content-Security-Policy RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS ALLOWED_RESOURCE_SOURCES`
 -
 
 ## PHP:
