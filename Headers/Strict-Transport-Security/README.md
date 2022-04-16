@@ -19,7 +19,7 @@ It would not hurt to place it in the .htaccess file, in the document root even b
 ## HTML:
 
 ```html
-<meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
+<meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload"/>
 ```
 
 ## PHP:
