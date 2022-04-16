@@ -11,7 +11,7 @@ To set up headers, you can set them universally through the website, by adding t
 -
 `# CONTROL SERVER ACCESS (CORS):`
 
-`Header set Access-Control-Allow-Origin: "ALLOWED_SERVERS"`
+`Header set Access-Control-Allow-Origin: "SERVERS_ALLOWED_ACCESS"`
 -
 `# CONTROL PAGE ACCESS (CSP):`
 
