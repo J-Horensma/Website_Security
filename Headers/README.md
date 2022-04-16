@@ -11,11 +11,11 @@ To set up headers, you can set them universally through the website, by adding t
 -
 `# CONTROL SERVER ACCESS (CORS):`
 
-`Header set Access-Control-Allow-Origin "SERVERS_ALLOWED_SERVER_ACCESS"`
+`Header set Access-Control-Allow-Origin "ALLOWED_ACCESS_TO_RESOURCES"`
 -
 `# CONTROL PAGE ACCESS (CSP):`
 
-`Header set Content-Security-Policy RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS SERVERS_ALLOWED_CONTROL_OF_PAGE_RESOURCES`
+`Header set Content-Security-Policy RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS ALLOWED_RESOURCES_SOURCES`
 -
 
 ## PHP:
