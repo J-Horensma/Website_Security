@@ -7,7 +7,7 @@
 
 ### Usage:
 In order for openssl to encrypt data, the data needs to be converted to a variable.
-This section has an example script for testing encryption of user input. The script has an input for text, that converts the "$_POST['INPUT_NAME']" variable, to a data variable that will be encrypted by openssl. You should store the key, and IV generated, by this script, somewhere secure, like in a database because the key and IV will be needed for openssl to decrypt the data, later. This script is a script based off the code at:
+This section has an example script for testing encryption of user input. The script has an input for text, that converts the "$_POST['INPUT_NAME']" variable, to a data variable, that will be encrypted by openssl. You should store the key, and IV generated, by this script, somewhere secure, like in a database because the key and IV will be needed for openssl to decrypt the data, later. This script is a script based off the code at:
 
 https://www.phpcluster.com/aes-encryption-and-decryption-in-php
 
