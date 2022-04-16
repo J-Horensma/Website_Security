@@ -9,7 +9,6 @@ To set up headers, you can set them universally through the website, by adding t
 `# PREVENT MITM, ON CLIENTS:`
 
 `Header set HEADER_NAME "HEADER_ATTRIBUTE DIRECTIVE"`
--
 
 ## HTML:
 ```html
