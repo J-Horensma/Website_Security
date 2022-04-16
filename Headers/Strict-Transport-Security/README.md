@@ -16,6 +16,14 @@ It would not hurt to place it in the .htaccess file, in the document root even b
 ## ".htaccess" File:
 `Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS`
 
+## HTML:
+
+`<head>`
+
+`<meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">`
+
+`</head>`
+
 ## PHP:
 ```php
 <?php
