@@ -2,6 +2,4 @@
 ## Requirements:
 1.) PHP's "openssl module" (Installed by default, on up to date PHP versions)
 
-[https://www.mozilla.org]: 
-[1]: http://slashdot.org
-[Hello]: http://www.reddit.com
+[https://www.mozilla.org]
