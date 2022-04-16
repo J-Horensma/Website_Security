@@ -7,6 +7,6 @@ To set up headers, you can set them universally through the website, by adding t
 ## PHP:
 ```php
 <?php
-
+header("Header-Name: DIRECTIVE_1; DIRECTIVE_2; ETC");
 ?>
 ```
