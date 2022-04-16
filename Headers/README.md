@@ -7,6 +7,8 @@ To set up headers, you can set them universally through the website, by adding t
 ## ".htaccess" File:
 `# PREVENT MITM, ON CLIENTS:`
 
+`# Should be max-age of 1 year, in seconds`
+
 `Header set Strict-Transport-Security "max-age=31536000 includeSubDomains env=HTTPS preload"`
 -
 `# CONTROL SERVER ACCESS (CORS):`
