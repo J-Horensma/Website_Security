@@ -26,4 +26,3 @@ It would not hurt to place it in the .htaccess file, in the document root even b
 ```php
 header("Strict-Transport-Security: max-age=31536000; includeSubDomains; preload");
 ```
-
