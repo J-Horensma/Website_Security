@@ -8,8 +8,7 @@ To set up headers, you can set them universally through the website, by adding t
 `# PREVENT MITM, ON CLIENTS:`
 
 `Header set Strict-Transport-Security "max-age=31536000 includeSubDomains env=HTTPS preload"`
-
-
+---------------------------------------------------------------------------------------------
 `# CONTROL SERVER ACCESS (CORS):`
 
 `Header set Access-Control-Allow-Origin: "ALLOWED_SERVERS"`
