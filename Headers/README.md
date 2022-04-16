@@ -21,7 +21,7 @@ To set up headers, you can set them universally through the website, by adding t
 
 </head>
   
-<body></body>
+<!---BODY OF PAGE--->
   
 </html>
 ```
@@ -30,5 +30,7 @@ To set up headers, you can set them universally through the website, by adding t
 ```php
 <?php
 header("HEADER_NAME: ATTRIBUTE DIRECTIVE");
+
+/*BODY OF PAGE*/"\r\n";
 ?>
 ```
