@@ -7,7 +7,7 @@ CSP headers, can prevent a page body, from loading, if they detect a policy brea
 #### ".htaccess" File:
 `Header set Content-Security-Policy "RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS"`
 
-## HTML:
+#### HTML:
 
 ```html
 <meta http-equiv="Content-Security-Policy" content="RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS"/>
