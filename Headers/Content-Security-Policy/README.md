@@ -40,6 +40,8 @@ To set base-uri, use:
 
 `base-uri`
 
+# Depricated:
+
 #### For currently supported directives, visit:
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
