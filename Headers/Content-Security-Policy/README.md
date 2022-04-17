@@ -76,6 +76,17 @@ To set base-uri, use:
 
 `base-uri DOMAIN_NAME *.DOMAIN_NAME`
 
+## sandbox:
+The "sandbox" directive, is the preferred method for login pages, over "frame-ancestors", because it not only blocks iframes, it also blocks scripts, plugins, and popups, while maintaining a strict same origin policy.
+
+To set sandbox, in a login form, use:
+
+`sandbox allow-forms`
+
+For other values to the sandbox directive, visit:
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/sandbox
+
 ## frame-ancestors:
 The "frame-ancestors" directive, is used to resrict URLs that can load the page, within an iframe, on that URLs domain.
 
