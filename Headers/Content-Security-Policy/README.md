@@ -22,7 +22,7 @@ header("Content-Security-Policy: RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRU
 
 ## DIRECTIVES:
 
-#### "default-src":
+#### default-src:
 The "default-src" directive, is a default for most directives and should be set to the URL, of the website (Should be HTTPS to force it) and the subdomains should be set with a `*`, like so: "https://*.website_name.com".
 
 To set default-src use:
