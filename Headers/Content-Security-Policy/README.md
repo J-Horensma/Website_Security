@@ -7,9 +7,6 @@ CSP headers, can prevent a resource, from loading, if they detect a policy breac
 The Content Security Policy, can be deployed in report only mode, so reports are sent of a breach, but the page still loads.
 To use report only mode, replace "Content-Security-Policy" with "Content-Security-Policy-Report-Only".
 
-## DIRECTIVES:
-
-
 #### ".htaccess" File:
 `Header set Content-Security-Policy "RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS"`
 
@@ -22,6 +19,8 @@ To use report only mode, replace "Content-Security-Policy" with "Content-Securit
 ```php
 header("Content-Security-Policy: RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS);
 ```
+
+## DIRECTIVES:
 
 #### For currently supported directives, visit:
 
