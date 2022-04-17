@@ -75,6 +75,8 @@ It's important to block iframes, on all secure forms, to prevent phishing, with 
 
 `report-to`
 
+`prefetch-src`
+
 # Depricated:
 
 `block-all-mixed-content`
