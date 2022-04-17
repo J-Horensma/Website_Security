@@ -42,6 +42,8 @@ To set base-uri, use:
 
 # Depricated:
 
+`block-all-mixed-content`
+
 #### For currently supported directives, visit:
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
