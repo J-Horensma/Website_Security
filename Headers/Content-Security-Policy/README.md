@@ -33,7 +33,9 @@ To set default-src, use:
 
 ## script-src:
 The "script-src" directive, is used to restrict the URLs that can load scripts, on the page.
+
 If script-src, is set to:
+
 `script-src DOMAIN_NAME *DOMAIN_NAME`, it's preferred over `X-XSS-Protection` headers, making them unneccessary.
 
 REF: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection
