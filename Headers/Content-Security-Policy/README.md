@@ -31,10 +31,6 @@ To set default-src, use:
 
 # Included In default-src:
 
-## connect-src:
-The "connect-src" directive, is used to restrict the URLs that can be loaded, using script interfaces.
-`connect-src`
-
 # Not included In default-src:
 
 ## base-uri:
@@ -43,6 +39,13 @@ The "base-uri" directive, is used to control what URLs a base element can use.
 To set base-uri, use:
 
 `base-uri DOMAIN_NAME *.DOMAIN_NAME`
+
+## connect-src:
+The "connect-src" directive, is used to restrict the URLs that can be loaded, using script interfaces.
+
+To set connect-src, use:
+
+`connect-src`
 
 # Lacking Browsers That Support Them:
 
