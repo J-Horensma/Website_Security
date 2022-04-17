@@ -30,9 +30,7 @@ To set default-src, use:
 `default-src DOMAIN_NAME *DOMAIN_NAME`
 
 # Included In default-src:
-NOTE: In the most practical example, in Apache, you would set the dafault-src in the ".htaccess" file. 
-
-The following are only needed for a page, if resources, for the page, have sources outside the web-server.
+NOTE: In the most practical example, in Apache, you would set `dafault-src DOMAIN_NAME *DOMAIN_NAME` in the ".htaccess" file, for that reason the following are only needed for a page, if resources, for the page, have sources outside the website's server.
 
 ## script-src:
 The "script-src" directive, is used to restrict the URLs that can load scripts, on the page.
