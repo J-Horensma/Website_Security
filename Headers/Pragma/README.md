@@ -3,6 +3,9 @@
 
 ## Usage:
 
+#### ".htaccess" File:
+`Header set Pragma "no-cache"`
+
 #### HTML:
 ```html
 <meta http-equiv="Pragma" content="no-cache">
