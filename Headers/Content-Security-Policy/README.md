@@ -38,7 +38,7 @@ The "connect-src" directive, is used to restrict the URLs that can be loaded, us
 # Not included In default-src:
 
 ## base-uri:
-The "base-uri" directive, is used to control what URLs a "<base>" element can use. 
+The "base-uri" directive, is used to control what URLs a <base> element can use. 
 
 To set base-uri, use:
 
