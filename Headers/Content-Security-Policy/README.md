@@ -8,16 +8,16 @@ The Content Security Policy, can be deployed in report only mode, so reports are
 To use report only mode, replace "Content-Security-Policy" with "Content-Security-Policy-Report-Only".
 
 #### ".htaccess" File:
-`Header set Content-Security-Policy "RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS"`
+`Header set Content-Security-Policy "RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS"`
 
 #### HTML:
 ```html
-<meta http-equiv="Content-Security-Policy" content="RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS"/>
+<meta http-equiv="Content-Security-Policy" content="RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS"/>
 ```
 
 #### PHP:
 ```php
-header("Content-Security-Policy: RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS);
+header("Content-Security-Policy: RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS");
 ```
 
 # DIRECTIVES:
@@ -25,15 +25,18 @@ header("Content-Security-Policy: RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRU
 ## default-src:
 The "default-src" directive, is a default for most directives and should be set to the URL, of the website (Should be HTTPS to force it) and the subdomains should be set with a `*`, like so: "https://*.website_name.com".
 
-To set default-src use:
+To set default-src, use:
 
-`default-src DOMAIN_NAME *DOMAIN`
+`default-src DOMAIN_NAME *DOMAIN_NAME`
 
 # Included In default-src:
 
 # Not included In default-src:
 
 ## base-uri:
+The "base-uri" directive, is used to control what URLs a "<base>" element can use. 
+
+To set base-uri, use:
 
 `base-uri`
 
