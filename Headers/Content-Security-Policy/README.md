@@ -30,7 +30,7 @@ To set default-src, use:
 `default-src DOMAIN_NAME *DOMAIN_NAME`
 
 # Included In default-src:
-NOTE: In the most practical example, in Apache, you would set `dafault-src DOMAIN_NAME *DOMAIN_NAME` in the ".htaccess" file, for that reason the following are only needed for a page, if resources, for the page, have sources outside the website's server.
+NOTE: In the most practical and secure example, in Apache, you would set `dafault-src DOMAIN_NAME *DOMAIN_NAME` in the ".htaccess" file, for that reason the following are only needed for a page, if resources, for the page, have sources outside the website's server.
 
 ## script-src:
 The "script-src" directive, is used to restrict the URLs that can load scripts, on the page.
@@ -107,6 +107,12 @@ It's important to block iframes, on all secure forms, to prevent phishing, with 
 `report-sample`
 
 `prefetch-src`
+
+# Impractical Or Unneccessary Directives:
+
+`script-src-elem` and `script-src-attr`
+
+are irrellivant because in the most practical and secure example, in Apache, you would have the default script-src to the website's server anyway.
 
 # Depricated:
 
