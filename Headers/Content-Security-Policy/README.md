@@ -22,6 +22,9 @@ header("Content-Security-Policy: RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRU
 
 ## DIRECTIVES:
 
+#### Base URI:
+`base-uri`
+
 #### For currently supported directives, visit:
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
