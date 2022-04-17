@@ -119,4 +119,4 @@ It's important to block iframes, on all secure forms, to prevent phishing, with 
 
 #### For The Complete List Of Currently Supported Directives, Visit:
 
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
