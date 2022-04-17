@@ -20,7 +20,7 @@ To use report only mode, replace "Content-Security-Policy" with "Content-Securit
 header("Content-Security-Policy: RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS");
 ```
 
-# DIRECTIVES (Most Practical & Secure Relevance):
+# Directives (Most Practical & Secure Relevance):
 
 ## default-src:
 The "default-src" directive, is a default for most directives and should be set to the URL, of the website (Should be HTTPS to force it) and the subdomains should be set with a `*`, like so: "https://*.website_name.com".
