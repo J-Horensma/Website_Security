@@ -4,5 +4,3 @@
 # TODO:
 
 -Build cookies section
-
--Build PHP sessions section
