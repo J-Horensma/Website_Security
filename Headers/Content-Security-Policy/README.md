@@ -81,7 +81,7 @@ It's important to block iframes, on all secure forms, to prevent phishing, with 
 
 `block-all-mixed-content`
 
-`report-to`
+`report-uri`
 
 `referrer`
 
