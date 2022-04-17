@@ -36,7 +36,7 @@ The "connect-src" directive, is used to restrict the URLs that can be loaded, us
 
 To set connect-src, use:
 
-`connect-src`
+`connect-src DOMAIN_NAME *DOMAIN_NAME`
 
 ## frame-src:
 The "frame-src" directive, is used to restrict URLs that can be used, in iframes, on the page.
@@ -44,7 +44,7 @@ The "child-src" directive, is the same as this directive, only one is needed, if
 
 To set frame-src, use:
 
-`frame-src`
+`frame-src DOMAIN_NAME *DOMAIN_NAME`
 
 # Not included In default-src:
 
