@@ -52,6 +52,13 @@ To set connect-src, use:
 
 `connect-src DOMAIN_NAME *DOMAIN_NAME`
 
+## style-src:
+The "style-src" directive, is used to restrict the URLs that can load CSS, on the page.
+
+To set style-src, use:
+
+`style-src DOMAIN_NAME *DOMAIN_NAME`
+
 ## frame-src:
 The "frame-src" directive, is used to restrict URLs that can be used, in iframes, on the page.
 
