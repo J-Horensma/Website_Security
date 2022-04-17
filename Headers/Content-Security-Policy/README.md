@@ -44,8 +44,6 @@ If script-src, is set to:
 
 `script-src DOMAIN_NAME *DOMAIN_NAME`, it's preferred over `X-XSS-Protection` headers, making them unneccessary.
 
-REF: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection
-
 To set script-src, use:
 
 `script-src DOMAIN_NAME *DOMAIN_NAME`
