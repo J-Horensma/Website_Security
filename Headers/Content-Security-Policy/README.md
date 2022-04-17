@@ -39,8 +39,8 @@ To set connect-src, use:
 `connect-src`
 
 ## frame-src:
-The "frame-src" directive, is used to restrict URLs that can be used for iframes, on the page.
-The "child-src" directive, is the same as this directive, only one is needed, if specifying, none-self, when default-src is set. 
+The "frame-src" directive, is used to restrict URLs that can be used, in iframes, on the page.
+The "child-src" directive, is the same as this directive, only one is needed, if specifying, none-self, when default-src is set.
 
 To set frame-src, use:
 
@@ -54,6 +54,9 @@ The "base-uri" directive, is used to control what URLs a base element can use.
 To set base-uri, use:
 
 `base-uri DOMAIN_NAME *.DOMAIN_NAME`
+
+## frame-ancestors:
+The "frame-ancestors" directive determines
 
 # Lacking Browsers That Support Them:
 
