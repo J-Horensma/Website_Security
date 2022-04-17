@@ -24,7 +24,9 @@ header("Content-Security-Policy: RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRU
 
 #### Default SOURCE:
 The default source is a default for most directives and should be set to the URL, of the website (Should be HTTPS to force it) and the subdomains should be set with a `*`, like so: "https://*.website_name.com".
-To set the default-src use `deafault-src DOMAIN_NAME *DOMAIN_NAME TRUSTED_DOMAINS`
+
+To set the default-src use:
+`deafault-src DOMAIN_NAME *DOMAIN_NAME TRUSTED_DOMAINS`
 
 #### Base URI:
 `base-uri`
