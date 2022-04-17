@@ -62,7 +62,9 @@ If frame-ansestors is set to:
 `frame-ancestors 'none'`
 
 Then the directive is the same as "X-Fram-Options DENY" headers. For this reason, X-Frame-Options headers are not needed.
-It's important to block iframes, on all secure forms, to prevent phishing with iframes.
+It's important to block iframes, on all secure forms, to prevent phishing, with iframes.
+
+# Lacking Browser Support:
 
 `report-to`
 
