@@ -1,7 +1,7 @@
 # What Are "Strict-Transport-Security" Headers?:
 "Strict-Transport-Security", also known as "HSTS", headers, are used to protect pages, with sensitive data inputs (Like forms), from MITM attacks.
 
-## What is an MITM attack?:
+## What is a MITM attack?:
 "Man-in-the-middle", also known as "MITM", is a tecnique used by hackers, on the same network as the target, to intercept data from a target.
 
 ## How Does A MITM Attack work?:
