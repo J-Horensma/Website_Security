@@ -3,10 +3,6 @@
 
 # TODO:
 
--Build Cache-Control headers section
-
--Build Access-Control headers section
-
 -Build exif data stripping section
 
 -Build cookies section
