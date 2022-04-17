@@ -32,6 +32,11 @@ To set default-src, use:
 # Included In default-src:
 
 ## script-src:
+The "script-src" directive, is used to restrict the URLs that can load scripts, on the page.
+
+To set script-src, use:
+
+`script-src DOMAIN_NAME *DOMAIN_NAME`
 
 ## connect-src:
 The "connect-src" directive, is used to restrict the URLs that can be loaded, using script interfaces.
