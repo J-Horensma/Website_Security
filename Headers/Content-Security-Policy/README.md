@@ -1,10 +1,14 @@
 # What Are "Content-Security-Policy" Headers?:
 "Content-Security-Policy", also known as "CSP", headers, are a set of directives, that can be added to the server's "Content Security Policy", for the page, for legitimate sources of resources, such as scripts, CSS, iframes, etc.
-CSP headers, can prevent a page body, from loading, if they detect a policy breach, and are important for preventing attacks, such as, XSS, phishing pages, with keyloggers and an iframe to the actual website login, or any attack involving alteration or usage, of resources, on a page, from an untrusted source.
+
+CSP headers, can prevent a resource, from loading, if they detect a policy breach, and are important for preventing attacks, such as, XSS, phishing pages, with keyloggers and an iframe to the actual website login, or any attack involving alteration or usage, of resources, on a page, from an untrusted source.
+
+## Usage:
 The Content Security Policy, can be deployed in report only mode, so reports are sent of a breach, but the page still loads.
 To use report only mode, replace "Content-Security-Policy" with "Content-Security-Policy-Report-Only".
 
-## Usage:
+## DIRECTIVES:
+
 
 #### ".htaccess" File:
 `Header set Content-Security-Policy "RESURCE-src SERVER_DOMAIN SERVER_SUBDOMAINS TRUSTED_DOMAINS"`
