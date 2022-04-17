@@ -31,15 +31,6 @@ To set default-src, use:
 
 # Included In default-src:
 
-# Not included In default-src:
-
-## base-uri:
-The "base-uri" directive, is used to control what URLs a base element can use. 
-
-To set base-uri, use:
-
-`base-uri DOMAIN_NAME *.DOMAIN_NAME`
-
 ## connect-src:
 The "connect-src" directive, is used to restrict the URLs that can be loaded, using script interfaces.
 
@@ -54,6 +45,15 @@ The "child-src" directive, is the same as this directive, only one is needed, if
 To set frame-src, use:
 
 `frame-src`
+
+# Not included In default-src:
+
+## base-uri:
+The "base-uri" directive, is used to control what URLs a base element can use. 
+
+To set base-uri, use:
+
+`base-uri DOMAIN_NAME *.DOMAIN_NAME`
 
 # Lacking Browsers That Support Them:
 
