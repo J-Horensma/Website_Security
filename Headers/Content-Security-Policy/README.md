@@ -49,6 +49,7 @@ To set frame-src, use:
 # Not included In default-src:
 
 ## upgrade-insecure-requests:
+The "upgrade-insecure-requests" directive, is used to upgrade HTTP links, on the page, to HTTPS requests.
 
 ## base-uri:
 The "base-uri" directive, is used to control what URLs a base element can use. 
