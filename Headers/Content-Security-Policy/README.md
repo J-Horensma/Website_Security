@@ -27,7 +27,7 @@ The default source is a default for most directives and should be set to the URL
 
 To set the default-src use:
 
-`deafault-src DOMAIN_NAME *DOMAIN_NAME TRUSTED_DOMAINS`
+`default-src DOMAIN_NAME *DOMAIN`
 
 #### Base URI:
 `base-uri`
