@@ -119,7 +119,11 @@ It's important to block iframes, on all secure forms, to prevent phishing, with 
 
 `script-src-elem` and `script-src-attr`
 
-are irrellivant because in the most practical and secure example, in Apache, you would have the default script-src to the website's server anyway.
+are irrellivant because in the most practical and secure example, in Apache, you would have the default script-src set to the website's server anyway.
+
+`style-src-elem` and `style-src-attr`
+
+are irrellivant because in the most practical and secure example, in Apache, you would have the default style-src set to the website's server anyway.
 
 # Depricated:
 
