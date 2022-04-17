@@ -56,9 +56,13 @@ To set base-uri, use:
 `base-uri DOMAIN_NAME *.DOMAIN_NAME`
 
 ## frame-ancestors:
-The "frame-ancestors" directive determines
+The "frame-ancestors" directive, is used to resrict URLs that can load the page, within an iframe, on that URLs domain.
+If frame-ansestors is set to:
 
-# Lacking Browsers That Support Them:
+`frame-ancestors 'none'`
+
+Then the directive is the same as "X-Fram-Options DENY" headers. For this reason, X-Frame-Options headers are not needed.
+It's important to block iframes, on all secure forms, to prevent phishing with iframes.
 
 `report-to`
 
