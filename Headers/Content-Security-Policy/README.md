@@ -50,6 +50,8 @@ To set base-uri, use:
 
 `report-to`
 
+`referrer`
+
 #### For currently supported directives, visit:
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
