@@ -4,11 +4,11 @@ HTTP headers, are loaded, by the browser, before the page content. Headers are s
 ## USAGE:
 To set up headers, you can set them universally through the website, by adding the headers, and their directives, to the ".htaccess" file, in the "document root" (Main) directory, of the server, or, you can set them on a page by page basis, at the top of each page, giving different permissions to each page.
 
-## ".htaccess" File:
+#### ".htaccess" File:
 
 `Header set HEADER_NAME "DIRECTIVES"`
 
-## HTML:
+#### HTML:
 ```html
 <html>
   
@@ -23,7 +23,7 @@ To set up headers, you can set them universally through the website, by adding t
 </html>
 ```
 
-## PHP:
+#### PHP:
 ```php
 <?php
 
