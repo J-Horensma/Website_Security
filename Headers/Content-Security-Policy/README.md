@@ -53,6 +53,7 @@ To set connect-src, use:
 
 ## frame-src:
 The "frame-src" directive, is used to restrict URLs that can be used, in iframes, on the page.
+
 The "child-src" directive, is the same as this directive, only one is needed, if specifying, none-self, when default-src is set.
 
 To set frame-src, use:
@@ -77,6 +78,7 @@ To set base-uri, use:
 
 ## frame-ancestors:
 The "frame-ancestors" directive, is used to resrict URLs that can load the page, within an iframe, on that URLs domain.
+
 If frame-ansestors is set to:
 
 `frame-ancestors 'none'`
