@@ -4,7 +4,11 @@
 ## Usage:
 
 #### HTML:
-
 ```html
 <meta http-equiv="Pragma" content="no-cache">
+```
+
+#### PHP:
+```php
+header("Pragma: no-cache");
 ```
