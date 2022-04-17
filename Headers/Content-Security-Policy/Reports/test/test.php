@@ -6,7 +6,7 @@ echo "<script src='js/csp_report.js'></script>";
 $domain=$_SERVER['SERVER_NAME'];
 if(isset($_SERVER['HTTPS'])) {
 $csp_self_domain="https://".$_SERVER['SERVER_NAME'];
-$csp_self_subdomains="https://*".$domain;
+$csp_self_subdomains="*".$domain;
 }
 else{
 $csp_self_domain="http://".$_SERVER['SERVER_NAME'];
