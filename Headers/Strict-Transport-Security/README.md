@@ -11,7 +11,7 @@ MITM, works, on HTTPS, when a hacker creates a spoofed certificate (They can dec
 
 ## Usage:
 As a general rule, you should place an HSTS header, in the top, of any form, where sensitive data is entered, such as login forms or file upload forms.
-It would not hurt to place it in the .htaccess file, in the document root, because the rules are not affected by different types of pages. "max-age", should be set to 1 year, in seconds (31536000), "includeSubDomains", sets HSTS, on subdomains, of the website and preload tells the browser to force HTTPS connection (On first connection call).
+In apache servers, it would not hurt to place this header, in the ".htaccess" file, in the document root, because different page settings, do not affect HSTS headers. "max-age", should be set to 1 year, in seconds (31536000), "includeSubDomains", sets HSTS, on subdomains, of the website and preload tells the browser to force HTTPS connection (On first connection call).
 
 #### ".htaccess" File:
 `Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS`
