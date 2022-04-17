@@ -1,7 +1,7 @@
 # What Are "Content-Security-Policy" Headers?:
 "Content-Security-Policy", also known as "CSP", headers, are a set of directives, that can be added to the server's "Content Security Policy", for the page, listing legitimate sources of resources, such as scripts, CSS, iframes, etc. 
 
-The CSP header, is the client web-page security, while "CORS", covered in the "Allow-Access" headers section of this repository, are server connection security.
+The CSP header, is the client web-page security, while "CORS", covered in the "Access-Control" headers section of this repository, are server connection security.
 
 CSP headers, can prevent a resource, from loading, if they detect a policy breach, and are important for preventing attacks, such as, XSS, phishing pages, with keyloggers and an iframe to the actual website login, or any attack involving alteration or usage, of resources, on a page, from an untrusted source.
 
