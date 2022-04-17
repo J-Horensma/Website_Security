@@ -38,7 +38,7 @@ The "base-uri" directive, is used to control what URLs a "<base>" element can us
 
 To set base-uri, use:
 
-`base-uri DOMAIN_NAME *DOMAIN_NAME`
+`base-uri DOMAIN_NAME *.DOMAIN_NAME`
 
 # Lacking Browsers That Support Them:
 
