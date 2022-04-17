@@ -9,6 +9,7 @@ As a general rule, you should add this header to the top of all pages, to preven
 
 #### Apache Server:
 Add this header to all pages, with the ".htaccess" file, because different page settings will not affect Pragma headers.
+
 `Header set Pragma "no-cache"`
 
 #### HTML:
