@@ -7,7 +7,7 @@ CSP headers, can prevent a resource, from loading, if they detect a policy breac
 The Content Security Policy, can be deployed in report only mode, so reports are sent of a breach, but the page still loads.
 To use report only mode, replace "Content-Security-Policy" with "Content-Security-Policy-Report-Only".
 
-#### Apache:
+#### Apache Servers:
 In the most practical and secure example, the Content Security Policy will have a default-src set to the website's server and all resources outside the website's server, should be specified, on the page. Forms that submit sensitive information should be sandboxed, or have frame-ancestors set to 'none', to prevent phishing.
 
 #### ".htaccess" File:
