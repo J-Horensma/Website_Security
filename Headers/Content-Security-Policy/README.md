@@ -44,6 +44,8 @@ To set base-uri, use:
 
 `block-all-mixed-content`
 
+`report-to`
+
 #### For currently supported directives, visit:
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
