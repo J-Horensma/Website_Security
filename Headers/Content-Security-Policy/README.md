@@ -48,6 +48,8 @@ To set frame-src, use:
 
 # Not included In default-src:
 
+## upgrade-insecure-requests:
+
 ## base-uri:
 The "base-uri" directive, is used to control what URLs a base element can use. 
 
