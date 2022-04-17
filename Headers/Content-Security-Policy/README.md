@@ -135,6 +135,8 @@ are irrellivant because in the most practical and secure example, in Apache, you
 
 `plugin-types`
 
+`require-sri-for`
+
 #### For The Complete List Of Currently Supported Directives, Visit:
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
