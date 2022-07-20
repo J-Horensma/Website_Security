@@ -2,7 +2,7 @@
 "Strict-Transport-Security", also known as "HSTS", headers, are used to protect pages, with sensitive data inputs (Like forms), from MITM attacks.
 
 ## What Is a MITM Attack?:
-"Man-in-the-middle", also known as "MITM", is a tecnique used by hackers, on the same network as the target, to intercept data from a target.
+"Man-in-the-middle", also known as "MITM", is a tecnique used by hackers, on the same network as a target, to intercept data from that target.
 
 ## How Does A MITM Attack Work?:
 Before SSL/TLS encryption was common, most websites used HTTP because an SSL/TLS certificate was pricy. This allowed hackers on the same network as a target, to intercept all data, in plain human readable format and steal sensitive information, like login credentials. Later, more websites started using SSL/TLS certificates and all data started being encrypted, when going through the internet also browsers started warning users that a connection was insecure, if the connection was HTTP.
