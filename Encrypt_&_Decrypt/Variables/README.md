@@ -1,6 +1,6 @@
 # Encrypt And Decrypt A Variable
 
-## PHP LANGUAGE:
+## PHP Language:
 
 #### Requirements:
 1.) PHP's "openssl module" (Installed by default, on up to date PHP versions)
