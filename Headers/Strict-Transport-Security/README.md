@@ -7,7 +7,7 @@
 ## How Does A MITM Attack Work?:
 
 #### HTTP:
-Before SSL/TLS encryption was common, most websites used HTTP because an SSL/TLS certificate was pricy. This allowed hackers on the same network as a target, to intercept all data, in plain human readable format and steal sensitive information, like login credentials. Later, more websites started using SSL/TLS certificates and all data started being encrypted, when going through the internet, also, browsers started warning users that a connection was insecure, if the connection is HTTP.
+Before SSL/TLS encryption was common, most websites used HTTP because an SSL/TLS certificate was pricey. This allowed hackers on the same network as a target, to intercept all data, in plain human readable format and steal sensitive information, like login credentials. Later, more websites started using SSL/TLS certificates and all data started being encrypted, when going through the internet, also, browsers started warning users that a connection was insecure, if the connection is HTTP.
 
 #### HTTPS:
 MITM, works, on HTTPS, when a hacker creates a spoofed certificate (They can decrypt), maintaining an HTTPS connection, with the target, so they are not notified by the browser, that the page is HTTP and not secure (The old way). In modern browsers, the browser will notify the user that the page is not secure, anyway (Due to certificate not being verified), but allows a user to continue anyway.
